@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/OMDB-Movies/static/css/main.4e7465fa.chunk.css",
-    "main.js": "/OMDB-Movies/static/js/main.caa433bf.chunk.js",
-    "main.js.map": "/OMDB-Movies/static/js/main.caa433bf.chunk.js.map",
+    "main.js": "/OMDB-Movies/static/js/main.2581a4d2.chunk.js",
+    "main.js.map": "/OMDB-Movies/static/js/main.2581a4d2.chunk.js.map",
     "runtime-main.js": "/OMDB-Movies/static/js/runtime-main.b2234b14.js",
     "runtime-main.js.map": "/OMDB-Movies/static/js/runtime-main.b2234b14.js.map",
     "static/css/2.43b2b750.chunk.css": "/OMDB-Movies/static/css/2.43b2b750.chunk.css",
-    "static/js/2.f9b7f734.chunk.js": "/OMDB-Movies/static/js/2.f9b7f734.chunk.js",
-    "static/js/2.f9b7f734.chunk.js.map": "/OMDB-Movies/static/js/2.f9b7f734.chunk.js.map",
+    "static/js/2.3cf0d89c.chunk.js": "/OMDB-Movies/static/js/2.3cf0d89c.chunk.js",
+    "static/js/2.3cf0d89c.chunk.js.map": "/OMDB-Movies/static/js/2.3cf0d89c.chunk.js.map",
     "index.html": "/OMDB-Movies/index.html",
     "static/css/2.43b2b750.chunk.css.map": "/OMDB-Movies/static/css/2.43b2b750.chunk.css.map",
     "static/css/main.4e7465fa.chunk.css.map": "/OMDB-Movies/static/css/main.4e7465fa.chunk.css.map",
-    "static/js/2.f9b7f734.chunk.js.LICENSE.txt": "/OMDB-Movies/static/js/2.f9b7f734.chunk.js.LICENSE.txt"
+    "static/js/2.3cf0d89c.chunk.js.LICENSE.txt": "/OMDB-Movies/static/js/2.3cf0d89c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b2234b14.js",
     "static/css/2.43b2b750.chunk.css",
-    "static/js/2.f9b7f734.chunk.js",
+    "static/js/2.3cf0d89c.chunk.js",
     "static/css/main.4e7465fa.chunk.css",
-    "static/js/main.caa433bf.chunk.js"
+    "static/js/main.2581a4d2.chunk.js"
   ]
 }
