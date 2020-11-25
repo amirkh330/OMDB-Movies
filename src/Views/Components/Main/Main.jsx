@@ -13,13 +13,13 @@ const Main = () => {
         const get = async () => {
             setLoading(true);
 
-            try {
-                const requrest = await axios.get(
-                    ` http://www.omdbapi.com/?apikey=70cc0487&s=${search}&`
-                );
-                setMovies(requrest.data.Search);
-                setLoading(false);              
-            } catch (e) {}
+            // try {
+            const requrest = await axios.get(
+                ` http://www.omdbapi.com/?apikey=70cc0487&s=${search}&`
+            );
+            setMovies(requrest.data.Search);
+            setLoading(false);
+            // } catch (e) {}
         };
         get();
     }, [search]);
@@ -31,14 +31,14 @@ const Main = () => {
                     <Spinner animation="border" />
                 </div>
             ) : (
-            <Body
-                input={input}
-                search={search}
-                movies={movies}
-                setSearch={setSearch}
-                setInput={setInput}
-            />
-             )} 
+                <Body
+                    input={input}
+                    search={search}
+                    movies={movies}
+                    setSearch={setSearch}
+                    setInput={setInput}
+                />
+            )}
         </>
     );
 };
