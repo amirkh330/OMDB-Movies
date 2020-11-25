@@ -30,11 +30,11 @@ const Main = () => {
  
     return (
         <>
-            {loading === true ? (
+            {/* {loading === true ? (
                 <div className="spiner">
                     <Spinner animation="border" />
                 </div>
-            ) : (
+            ) : ( */}
                 <Body
                     input={input}
                     search={search}
@@ -42,7 +42,7 @@ const Main = () => {
                     setSearch={setSearch}
                     setInput={setInput}
                 />
-            )}
+            {/* )} */}
         </>
     );
 };
