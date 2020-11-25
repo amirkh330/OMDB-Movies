@@ -13,17 +13,17 @@ const Main = () => {
         const get = async () => {
             setLoading(true);
 
-            // try {
+            try {
             const requrest = await axios.get(
                 ` http://www.omdbapi.com/?apikey=70cc0487&s=${search}&`
             );
             setMovies(requrest.data.Search);
             setLoading(false);
-            // } catch (e) {}
+            } catch (e) {}
         };
         get();
     }, [search]);
-console.log("a");
+
     return (
         <>
             {loading === true ? (
