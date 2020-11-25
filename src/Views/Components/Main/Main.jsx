@@ -23,7 +23,7 @@ const Main = () => {
         };
         get();
     }, [search]);
-
+console.log("a");
     return (
         <>
             {loading === true ? (
