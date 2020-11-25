@@ -1,0 +1,10 @@
+.title-notfound{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 18% 0;
+    display: flex;
+    word-wrap: break-word;
+    text-align: center;
+    height: 100vh;
+}

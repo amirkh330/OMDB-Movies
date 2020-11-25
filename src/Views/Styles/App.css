@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.main {
+    
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: linear-gradient(20deg, #616161 0%, #9bc5c3 100%);
+}
+.spiner {
+    display: flex;
+    padding-top: 200px;
+    justify-content: center;
+    height: 100vh;
+    background-color: #9bc5c3
+}
+@import "Header.css";
+@import "ListItems.css";
+@import "Movie.css";
+@import "NotFound"
